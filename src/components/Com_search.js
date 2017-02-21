@@ -31,22 +31,23 @@ export default class Search extends Component{
 		})
 		
 		return (
-		<div className="jumbotron">
+		<div className="container">
 			
-			<div className="row" className={"search"}>
-    		    <div className="col-lg-12">
-    		      <div className="input-group">
-    		        <input type="text" className="form-control" name="search" ref="search" placeholder="Search for..." />
-    		        <span className="input-group-btn">
-    		          <button className="btn btn-default" type="submit" value="submit" onClick={this.mapData}>Go!</button>
-    		        </span>
-    		      </div>
-    		    </div>
-    		</div>
+				<div className="row" className={"search"}>
+    			    <div className="col-lg-12">
+    			      <div className="input-group">
+    			        <input type="text" className="form-control" name="search" ref="search" placeholder="Search for..." />
+    			        <span className="input-group-btn">
+    			          <button className="btn btn-default" type="submit" value="submit" onClick={this.mapData}>Go!</button>
+    			        </span>
+    			      </div>
+    			    </div>
+    			</div>
+	
+      			<div className="list" className={"list"}>
+					{renderList}
+				</div>
 
-      		<div className="list" className={"list"}>
-				{renderList}
-			</div>
 		</div>
 		);
 	}
