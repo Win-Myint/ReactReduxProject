@@ -1,4 +1,4 @@
-$height: 650px;
+$height: 100%;
 $backgroundColor : #4E4664;
 $appWidth : 90%;
 
@@ -36,4 +36,18 @@ body{
 	width: $appWidth / 2;
 	margin-top: 10px;
 	font-size: 30px;
+}
+
+.list{
+	width: $appWidth * 0.25;
+	height: $height;
+	margin-left: 10px;
+	overflow: hidden;
+	float: left;
+}
+
+img {
+	width: 150px;
+	height: auto;
+	float: left;
 }
