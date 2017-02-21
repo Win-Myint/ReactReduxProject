@@ -1,0 +1,23 @@
+{
+  "name": "ReactReduxProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Win-Myint/ReactReduxProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Win-Myint/ReactReduxProject/issues"
+  },
+  "homepage": "https://github.com/Win-Myint/ReactReduxProject#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
