@@ -4,7 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node server.js --ignore public/",
+    "dev": "webpack -p --watch",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,26 @@
   },
   "homepage": "https://github.com/Win-Myint/ReactReduxProject#readme",
   "dependencies": {
+    "axios": "^0.15.3",
+    "express": "^4.14.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
     "ejs": "^2.5.6",
-    "express": "^4.14.1"
+    "express": "^4.14.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "chai": "^3.5.0",
+    "css-loader": "^0.26.1",
+    "mocha": "^3.2.0",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1"
   }
 }

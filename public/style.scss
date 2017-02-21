@@ -1,0 +1,39 @@
+$height: 650px;
+$backgroundColor : #4E4664;
+$appWidth : 90%;
+
+html,body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	color: white;
+}
+
+body{
+	width: 100%;
+	height: $height;
+}
+
+#app{
+	width: $appWidth;
+	height: $height;
+	margin: 0 auto;
+	background-color: $backgroundColor;
+}
+.search{
+	width : $appWidth / 2;
+	height: 100px;
+	margin: 0 auto;
+	color: white;
+}
+.search input[type=text]{
+	width: 100%;
+	margin: 0 auto;
+	font-size: 30px;
+}
+
+.search input[type=submit]{
+	width: $appWidth / 2;
+	margin-top: 10px;
+	font-size: 30px;
+}
